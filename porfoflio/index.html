@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>hossam</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+
+  <body>
+    <!-- start the navbar here -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped four better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#temo"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand" href="#">Hossam</a>
+        </div>
+
+        <!-- Collect the nav links, fourms, and other content four toggling -->
+        <div class="collapse navbar-collapse" id="temo">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="ac">
+              <a href="#" data-val="about"
+                >about <span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li><a href="#" data-val="skills">skills</a></li>
+            <li><a href="#" data-val="pro">project</a></li>
+            <li><a href="#" data-val="cont">contact</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+    <!-- finished the navbar here -->
+
+    <!--       start section about -->
+    <section class="about text-center" data-aos="flip-left" id="about">
+      <div class="container">
+        <h2 class="h1">Hi, I'm Hossam, </h2>
+        <p class="leade">
+           I am a Frond end Developer with a passion for developing scalable web applications 
+        </p>
+      </div>
+    </section>
+    <!--       finished section about -->
+
+    <section class="skills"  id="skills">
+      <div class="row">
+        <div class="col-md-12 lists">
+          <h1>skills</h1>
+          <hr />
+
+          <ul class="list-unstyled colm" id="skillsList">
+           
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--        start section projects -->
+
+    <section class="projects" id="pro">
+      <div>
+        <div class="tex text-center">
+          <h2 class="h1">projects</h2>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row" id="projectsList"></div>
+        </div>
+      </div>
+    </section>
+    <!--        end the projects section-->
+
+    <!--        start the contact us section -->
+    <section class="contact" id="cont">
+      <div class="container">
+        <div class="head text-center">
+          <h2>contact me</h2>
+          <hr />
+          <p>
+            I’m interested in freelance opportunities – especially ambitious or
+            large projects. However, if you have other request or question,
+            don’t hesitate to use the form.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Complete the Submission Form</h2>
+          </div>
+
+          <div class="col-md-6">
+            <h2>Or Just Make a Call</h2>
+            <p>+201150641721 <br /></p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <form class="form-block">
+              <input
+                class="input-lg form-control kola"
+                type="text"
+                id="clientName"
+                placeholder="write your name"
+              />
+            </form>
+          </div>
+
+          <div class="col-md-6">
+            <form class="form-block">
+              <input
+                class="input-lg form-control"
+                type="text"
+                id="clientEmail"
+                placeholder="write your email"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-block">
+              <input
+                type="text"
+                id="subject"
+                placeholder="subject"
+                class="form-control input-lg"
+              />
+            </form>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-block">
+              <textarea
+                placeholder="message"
+                id="clientMessage"
+                class="form-control input-lg"
+              ></textarea>
+            </form>
+          </div>
+        </div>
+
+        <div class="bot">
+          <div class="btn btn-lg" id="sendmsg">send</div>
+        </div>
+      </div>
+    </section>
+    <!--        finished the contact us section -->
+
+    <!-- start the foooter section-->
+    <section class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <p>desigen by html5 / css3 /bootstrap/javascript</p>
+          </div>
+
+          <div class="col-md-4 media col-sm-4 col-xs-12">
+            <a href="https://www.linkedin.com/in/hossam-abdalhakeem-b0736b235/">
+              <i class="fa fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/HossamAbdalhakeem">
+              <i class="fa fa-github fa-2x"></i>
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <span>privacy policy -</span> <span>terms of use</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sweap"><i class="fa fa-chevron-circle-up fa-2x"></i></div>
+    </section>
+    <!-- finished the foooter section-->
+    <section class="loading">
+      <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/plugn.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: "DOMContentLoaded", // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: "aos-init", // class applied after initialization
+        animatedClassName: "aos-animate", // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 400, // values from 0 to 3000, with step 50ms
+        easing: "ease", // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: "top-bottom", // defines which position of the element regarding to window should trigger the animation
+      });
+    </script>
+  </body>
+</html>
